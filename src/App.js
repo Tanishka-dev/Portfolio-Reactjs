@@ -5,6 +5,7 @@ import "./App.scss";
 function App() {
    return (
       <div className="app">
+         <Navbar />
          <Header />
          <About />
          <Work />

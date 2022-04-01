@@ -9,7 +9,7 @@ function Navbar() {
    return (
       <nav className="app__navbar">
          <div className="app__navbar-logo">
-            <img src={images.logo} alt="logo" />
+            <img src={images.logo1} alt="logo" />
          </div>
          <ul className="app__navbar-links">
             {["home", "about", "contact", "skills", "work"].map((item) => (
