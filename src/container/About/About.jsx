@@ -2,27 +2,31 @@ import React from "react";
 import { motion } from "framer-motion";
 import "./About.scss";
 import { images } from "../../constants";
-import { AppWrap } from "../../wrapper";
+import { AppWrap, MotionWrap } from "../../wrapper";
 function About() {
    const abouts = [
       {
-         title: "Web Development",
-         description: "I am a good developer.",
+         title: "Web Designer",
+         description:
+            "I am a web desinger with a passion for building beautiful and functional web applications.",
          imageUrl: images.about01,
       },
       {
-         title: "Front-end Development",
-         description: "I am a good developer.",
+         title: "Front-end Developer",
+         description:
+            "Love to juggle through code and structure UI which can give user a good experience while surfing.",
          imageUrl: images.about02,
       },
       {
-         title: "Java Development",
-         description: "I am a good developer.",
+         title: "React Developer",
+         description:
+            "I feel happpy while designing and implementing user-facing features for websites and applications using React.js.",
          imageUrl: images.about03,
       },
       {
-         title: "Java Development",
-         description: "I am a good developer.",
+         title: "React-Native Developer",
+         description:
+            "With growing demand of mobile applications, a good react-native developer is a must.",
          imageUrl: images.about04,
       },
    ];
@@ -57,4 +61,8 @@ function About() {
    );
 }
 
-export default AppWrap(About, "about");
+export default AppWrap(
+   MotionWrap(About, "app__about"),
+   "about",
+   "app__whitebg"
+);

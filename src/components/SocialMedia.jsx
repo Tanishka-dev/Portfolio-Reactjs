@@ -5,16 +5,24 @@ function SocialMedia() {
    return (
       <div className="app__social">
          <div>
-            <BsTwitter />
+            <a href="https://twitter.com/tanishka__yadav">
+               <BsTwitter />
+            </a>
          </div>
          <div>
-            <BsInstagram />
+            <a href="https://instagram.com/sayittanishka?utm_medium=copy_link">
+               <BsInstagram />
+            </a>
          </div>
          <div>
-            <BsLinkedin />
+            <a href="https://www.linkedin.com/in/tanishkayadav/">
+               <BsLinkedin />
+            </a>
          </div>
          <div>
-            <SiGmail />
+            <a href="mailto:tanishakayadav2110@gmail.com">
+               <SiGmail />
+            </a>
          </div>
       </div>
    );
