@@ -6,37 +6,30 @@ import { AppWrap, MotionWrap } from "../../wrapper";
 function About() {
    const abouts = [
       {
-         title: "Web Designer",
+         title: "SWE Intern",
          description:
-            "I am a web desinger with a passion for building beautiful and functional web applications.",
+            "Working in a range of tech stacks of ReactJS in the front end, SpringBoot and Java in the back end, and Jenkins for CI/CD Pipelines.",
          imageUrl: images.about01,
       },
       {
-         title: "Front-end Developer",
+         title: "Full-Stack Developer",
          description:
-            "Love to juggle through code and structure UI which can give user a good experience while surfing.",
+            "Love to juggle through code and structure which can give user a good experience while surfing.",
          imageUrl: images.about02,
       },
+      
       {
-         title: "React Developer",
+         title: "Tech Content Creator",
          description:
-            "I feel happpy while designing and implementing user-facing features for websites and applications using React.js.",
-         imageUrl: images.about03,
-      },
-      {
-         title: "React-Native Developer",
-         description:
-            "With growing demand of mobile applications, a good react-native developer is a must.",
+            "Helping people with problems I've personally faced in my journey is something I love to do",
          imageUrl: images.about04,
       },
    ];
    return (
       <>
          <h2 className="head-text">
-            I Know that
-            <span> Good Design </span>
-            means
-            <span> Good Business</span>
+            About
+            <span> Me!</span>
          </h2>
          <div className="app__profiles">
             {abouts.map((about, index) => (

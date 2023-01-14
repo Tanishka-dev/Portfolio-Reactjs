@@ -1,0 +1,64 @@
+.app__footer {
+   flex: 1;
+   width: 100%;
+   flex-direction: column;
+}
+
+.app__footer-cards {
+   width: 80%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: 4rem 2rem 2rem;
+
+   .app__footer-card {
+      min-width: 350px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+
+      margin: 2rem 0rem;
+      padding: 1rem;
+      border-radius: 10px;
+      cursor: pointer;
+      background-color: #fef4f5;
+      transition: all 0.3s ease-in-out;
+
+      img {
+         width: 40px;
+         height: 40px;
+         margin: 0 0.7rem;
+      }
+
+      p {
+         font-weight: 600;
+      }
+
+      a {
+         font-weight: 500;
+         text-decoration: none;
+      }
+
+      &:hover {
+         box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+      }
+
+      @media screen and (max-width: 450px) {
+         width: 100%;
+      }
+   }
+
+   @media screen and (max-width: 768px) {
+      width: 100%;
+   }
+}
+
+.app__footer-cards .app__footer-card:first-child {
+   background-color: #f2f7fb;
+}
+
+.app__footer-cards .app__footer-card:last-child {
+   background-color: #f2f7fb;
+}

@@ -1,16 +1,17 @@
 import React from "react";
-import { About, Header, Work, Skills, Footer, Testimonial } from "./container";
+import { About, Header, Work, Skills, Contact, Testimonial } from "./container";
 import { Navbar } from "./components";
 import "./App.scss";
 function App() {
    return (
       <div className="app">
+         
          <Navbar />
          <Header />
-         <About />
+         <Contact />
+         <About />        
          <Work />
-         <Skills />
-         <Footer />
+         <Skills />         
       </div>
    );
 }

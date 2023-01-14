@@ -6,7 +6,7 @@ const works = [
       codeLink: "https://github.com/Tanishka-dev/Tesla-Ecommerce-Redux",
       projectLink: "https://tesla-ecommerce.netlify.app/",
       imageUrl: images.tesla,
-      tag: "Redux App",
+      
    },
    {
       title: "Uber Clone",
@@ -15,25 +15,28 @@ const works = [
       projectLink:
          "https://expo.dev/@tanishka_yadav/clone-uber?serviceType=classic&distribution=expo-go",
       imageUrl: images.uber,
-      tag: "React-Native App",
+      
    },
    {
-      title: "Gossip-Mania",
-      description:
-         "A react app with all the features of modern chat application",
-      codeLink: "https://github.com/Tanishka-dev/Gossip-Mania-React-App",
-      projectLink: "https://gossip-mania.netlify.app/",
-      imageUrl: images.gossip,
-      tag: "Reactjs App",
+      title: "Bracket App",
+      description: "A social media app",
+      codeLink: "https://github.com/Tanishka-dev/Bracket-SMA-Reactjs",
+      projectLink:
+         "https://bracket-social.netlify.app/",
+      imageUrl: images.bracket,
+      
    },
    {
-      title: "Tenzies Game",
-      description: "Tenzies Game which we all love to play",
-      codeLink: "https://github.com/Tanishka-dev/Tenzies-Game-React",
-      projectLink: "https://tanishka-dev.github.io/Tenzies-Game-React/",
-      imageUrl: images.tenzies,
-      tag: "Reactjs App",
+      title: "Viber App",
+      description: "A chat app",
+      codeLink: "https://github.com/Tanishka-dev/Viber-Chat-App-Reactjs",
+      projectLink:
+         "https://viber-chat-app-reactjs.vercel.app/",
+      imageUrl: images.viber,
+      
    },
+   
+   
 ];
 
 export default works;

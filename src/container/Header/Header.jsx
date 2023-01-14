@@ -31,9 +31,18 @@ function Header() {
                </div>
 
                <div className="tag-cmp app-flex">
-                  <p className="p-text ">Web Developer</p>
-                  <p className="p-text ">Freelancer</p>
+                  <p className="p-text ">Software Engineer Intern</p>
                </div>
+               <div className="tag-cmp app-flex">
+                  <p className="p-text ">Full-Stack Developer</p>
+               </div>
+               <div className="tag-cmp app-flex">
+                  <p className="p-text ">Technical Writer</p>
+               </div>
+               <div className="tag-cmp app-flex">
+                  <p className="p-text ">Technical Content Creator</p>
+               </div>
+               
             </div>
          </motion.div>
 

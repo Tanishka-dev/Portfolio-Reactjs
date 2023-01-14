@@ -44,7 +44,14 @@ import tenzies from "../assets/tenzies.png";
 import github from "../assets/github.png";
 import twitter from "../assets/twitter.png";
 import linkedln from "../assets/linkedln.png";
+import medium from "../assets/medium.png";
+import topmate from "../assets/topmate.jpeg";
+import bracket from "../assets/Bracket.gif";
+import viber from "../assets/viber.gif";
 export default {
+   bracket,
+   viber,
+   topmate,
    github,
    twitter,
    linkedln,
@@ -92,4 +99,5 @@ export default {
    firebase,
    tailwind,
    reactNative,
+   medium,
 };
